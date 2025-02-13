@@ -14,7 +14,7 @@ Para ejecutar este proyecto, necesitas:
 
 - **Java 21** o superior
 - **Maven 3.8+**
-- **PostgreSQL** (o puedes modificar `application.properties` para otro motor de BD)
+- **PostgreSQL** 
 - **Git**
 - **Navegador Chromium / Edge / Firefox instalado** (para Selenium)
 
@@ -56,7 +56,7 @@ Para ejecutar este proyecto, necesitas:
 **Request:**
 
 ```http
-GET /api-scraper/consulta?q=tu_busqueda
+GET /api-scraper/consulta?q=<tu_busqueda>
 ```
 
 **Opcionales:**
@@ -67,7 +67,7 @@ GET /api-scraper/consulta?q=tu_busqueda
 
 ```http
 X-API-KEY: 123456789ABCDEF
-X-API-SIGNATURE: TuFirmaHMAC
+X-API-SIGNATURE: fq.123456
 ```
 
 **Ejemplo de respuesta:**
@@ -117,5 +117,5 @@ X-API-SIGNATURE: TuFirmaHMAC
 - El API usa **validación con API Keys** para mayor seguridad.
 - Se incluye una opción para obtener las imágenes en **Base64**.
 
-### 🔥 **Autor:** Francisco **(Coloca tu usuario de GitHub/GitLab)** 🚀
+### 🔥 **Autor:** Francisco Quintana ** 🚀
 
