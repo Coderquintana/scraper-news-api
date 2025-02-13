@@ -16,7 +16,7 @@ Para ejecutar este proyecto, necesitas:
 - **Maven 3.8+**
 - **PostgreSQL** 
 - **Git**
-- **Navegador Chromium / Edge / Firefox instalado** (para Selenium)
+- **Navegador Chrome / Edge(utilizado para el desarrollo) / Firefox** (para Selenium)
 
 ---
 
