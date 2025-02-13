@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto es una API REST en **Java con Spring Boot** que permite realizar **web scraping** en un periódico digital para obtener noticias.
+Este proyecto es una API REST en **Java con Spring Boot** que permite realizar **web scraping** en un periódico digital para obtener noticias (https://www.abc.com.py/buscador/?query=).
 
 El API obtiene noticias a partir de un término de búsqueda y devuelve información como título, resumen, fecha, enlace y la imagen asociada (opcionalmente en Base64).
 
@@ -116,6 +116,8 @@ X-API-SIGNATURE: fq.123456
 - Se usó **Selenium WebDriver** para el scraping.
 - El API usa **validación con API Keys** para mayor seguridad.
 - Se incluye una opción para obtener las imágenes en **Base64**.
+- Version de java en ambiente de desarrollo: java 22
+- Maven: apache-maven-3.9.9
 
 ### 🔥 **Autor:** Francisco Quintana ** 🚀
 
