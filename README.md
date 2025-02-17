@@ -25,7 +25,7 @@ Para ejecutar este proyecto, necesitas:
 1. **Clonar el repositorio**
 
    ```sh
-   git clone https://github.com/tuusuario/scraper-news-api.git
+   git clone https://github.com/Coderquintana/scraper-news-api.git
    cd scraper-news-api
    ```
 
